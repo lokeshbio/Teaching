@@ -37,7 +37,7 @@ ssh bagnoud@vlogin4.csb.univie.ac.at
 
 Click yes for the first question (if any). This question will not appear again.
 
-Enter the password given to you by the teacher.
+Enter the password given to you by Alex ;)
 
 Then you can check what kinds of files Alex has in his home folder:
 
