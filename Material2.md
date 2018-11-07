@@ -1,6 +1,7 @@
 -   [Shortcuts](#shortcuts)
 -   [Remote login](#remote-login)
     -   [Copying files from the remote computer](#copying-files-from-the-remote-computer)
+-   [Permissions](#Permissions)
 -   [Compression & archiving](#compression-archiving)
 -   [Text manipulation](#text-manipulation)
     -   [GREP](#grep)
@@ -101,6 +102,11 @@ cd # Go home, if not at home already
 scp -r bagnoud@vlogin4.csb.univie.ac.at:~/YOUR_NAME/Test .
 ls -l ~/Test
 ```
+
+Permissions
+---------
+
+
 
 Compression & archiving
 -----------------------
