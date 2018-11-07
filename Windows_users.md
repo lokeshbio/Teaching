@@ -31,7 +31,7 @@ ls
 
 I know I have a LOT of files in this computer!
 
-<span style="color:red"> PLEASE Make sure you don't mess with my files! Do the following and work there, thanks! </span>
+<span style="color:red"> **PLEASE Make sure you don't mess with my files! Do the following and work there, thanks!** </span>
 
 ``` bash
 mkdir YOUR_NAME
