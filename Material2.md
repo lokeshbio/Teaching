@@ -17,6 +17,8 @@ fortune | cowsay
 
 LOL
 
+Back to serious stuff :)
+
 Shortcuts
 ---------
 
