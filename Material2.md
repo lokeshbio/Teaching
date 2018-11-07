@@ -124,7 +124,7 @@ ls -l
 The permissions use 10 characters (-rw-r--r--). In the most permissive setting they will look like -rwxwxrwx. They are interpreted such as (in order):
 
 Inline-style: 
-![alt text](https://github.com/lokeshbio/teaching/blob/master/ "Permissions")
+![alt text](https://github.com/lokeshbio/teaching/blob/master/UNIX-file-permissions-rwx-e1407595939422.jpg "Permissions")
 
 1. "-" denotes a regular file, "d" is directory
 
