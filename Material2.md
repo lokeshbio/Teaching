@@ -123,6 +123,9 @@ ls -l
 ```
 The permissions use 10 characters (-rw-r--r--). In the most permissive setting they will look like -rwxwxrwx. They are interpreted such as (in order):
 
+Inline-style: 
+![alt text](https://github.com/lokeshbio/teaching/blob/master/ "Permissions")
+
 1. "-" denotes a regular file, "d" is directory
 
 2. "r" means that the current user ("bjorn" in this case) can read the file. "-" would mean that the user can’t read the file (useless in other words).
