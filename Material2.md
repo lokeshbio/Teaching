@@ -98,7 +98,7 @@ ls -l # Check if true
 exit
 
 
-cd # Go home, if not at home already
+cd # Go home, if not at home already [Windows user: cd ~/YOUR_NAME/ ]
 scp -r bagnoud@vlogin4.csb.univie.ac.at:~/YOUR_NAME/Test .
 ls -l ~/Test
 ```
