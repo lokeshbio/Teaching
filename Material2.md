@@ -7,6 +7,16 @@
     -   [CUT](#cut)
     -   [SED](#sed)
 
+If you have come this far! You should definitely try the following:
+
+``` bash
+brew install fortune
+brew install cowsay
+fortune | cowsay
+```
+
+LOL
+
 Shortcuts
 ---------
 
