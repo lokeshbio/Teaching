@@ -106,7 +106,59 @@ ls -l ~/Test
 Permissions
 ---------
 
+To understand how permissions work and what is it useful for we will use the generic example of the "Hello World". You should have two files in the home folder with the ".sh" extensions!
 
+Copy them to your current directory! Then have a look at one of those files.
+
+``` bash
+cat hello_world.sh
+# The first line is to tell the computer that this is a shell/bash script! This is the reason why it has ".sh" extension
+```
+
+Look at the file permissions in the first column of the output of:
+
+``` bash
+ls -l
+# It will look similar to: -rw-r--r-- 1 bjorn users 4 Mar 26 09:15 hello.sh
+```
+The permissions use 10 characters (-rw-r--r--). In the most permissive setting they will look like -rwxwxrwx. They are interpreted such as (in order):
+
+1. "-" denotes a regular file, "d" is directory
+
+2. "r" means that the current user ("bjorn" in this case) can read the file. "-" would mean that the user can’t read the file (useless in other words).
+
+3. "w" means that the current user can write or edit the file. "-" would mean that the user can’t make any changes to the file.
+
+4. "x" means that the file is a program (executable). The current user can run the program. "-" means not executable.
+
+5. "r" means that a member of the group ("users" in this case) can read the file. "-" would mean that no one execpt the user can read the file. 
+
+6. "w" means that any group member can write or edit the file. "-" would mean that no one except the user can write or edit the file.
+
+7. "x" means that any group member can execute the program. "-" means that group members don’t have the right to execute the program.
+
+8. "r" means that any user can read the file.
+
+9. "w" means that any user can write to or edit the file.
+
+10. "x" means that any user can run the program.
+
+As we know that the files we just copied are bash scripts, we need to tell the computer that it is a program/executable script. In order to make it "-rwxr—r--" (user executable) type:
+
+``` bash
+chmod +x hello_world.sh
+ls -l hello_world.sh
+# Now you can try to run the script by the following
+./hello_world.sh
+```
+
+"chmod +x" command makes the script executable for everyone! This is good!
+
+Now, try to make the other "savy" script executable and try the following!
+
+``` bash
+./hello_world_savy.sh YOUR_NAME
+```
 
 Compression & archiving
 -----------------------
