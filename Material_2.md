@@ -2,7 +2,7 @@
 -   [Remote login](#remote-login)
     -   [Copying files from the remote computer](#copying-files-from-the-remote-computer)
 -   [Permissions](#Permissions)
--   [Compression & archiving](#Compression & archiving)
+-   [Compression & archiving](#Compression-&-archiving)
 -   [Text manipulation](#text-manipulation)
     -   [GREP](#grep)
     -   [CUT](#cut)
