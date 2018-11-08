@@ -2,7 +2,7 @@
 -   [Remote login](#remote-login)
     -   [Copying files from the remote computer](#copying-files-from-the-remote-computer)
 -   [Permissions](#permissions)
--   [Compression & archiving](#compression-&-archiving)
+-   [Compression and archiving](#compression-and-archiving)
 -   [Text manipulation](#text-manipulation)
     -   [GREP](#grep)
     -   [CUT](#cut)
@@ -162,7 +162,7 @@ Now, try to make the other "savy" script executable and try the following!
 ./hello_world_savy.sh YOUR_NAME
 ```
 
-Compression & archiving
+Compression and archiving
 -----------------------
 
 Log-in back into Alex's CUBE account!
