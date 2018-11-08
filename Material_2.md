@@ -8,7 +8,7 @@
     -   [CUT](#cut)
     -   [SED](#sed)
 
-If you have come this far! You should definitely try the following:
+If you have come this far! You should definitely try the following (Only in local computers):
 
 ``` bash
 brew install fortune
